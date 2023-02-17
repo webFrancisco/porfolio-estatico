@@ -76,6 +76,15 @@
         </div>
       </div>
     </div>
+
+
+  
+  
+  
+    
+  
+
+  
     <div class="container px-4 py-5" id="featured-3">
       <h2 class="pb-2 border-bottom">Formación</h2>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -85,14 +94,13 @@
           </div>
           <h3 class="fs-2">Carrera de grado</h3>
           <ul>
-            <li>Perito en Técnica Bancaria e Impositivas Instituto San Miguel</li>
-            <imput id= "edit-carrera"
-            type="text"
-            style="display:none">
-            </imput>
-         <li> Abogado Univerisad Catolica Argentina</li>
-         <li> Notario Universidad Catolica Argentina</li>  
+            <li id="primeritem">Perito en Técnica Bancaria e Impositivas Instituto San Miguel</li>
+            <input id="edit-carrera" type="text" style="display:none" oninput="cambiartexto(this.value)"/>
+            <button type="button" onclick="mostrarimputcarrera()">Cambiar Texto</button>
+            <li> Abogado Univerisad Catolica Argentina</li>
+            <li> Notario Universidad Catolica Argentina</li>  
           </ul>
+          
          </div>
         <div class="feature col">
           <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
@@ -167,5 +175,6 @@
         </div>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
