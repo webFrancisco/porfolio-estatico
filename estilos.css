@@ -1,1 +1,14 @@
-body {background-color: cornflowerblue;}
+body {
+  background-color: cornflowerblue;
+}
+
+.link-header {
+  color: white !important;
+}
+
+.link-header:hover {
+    color: gray !important;
+  }
+.botontransparente{color: white;}
+.botoncolor {background-color: darkslateblue;}
+.sombraproyectos { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
