@@ -112,3 +112,12 @@ h5 {
 .for-section {
   background-color: var(--mentaclaro);
 }
+
+/* --- Estilos Skills --- */
+.skills-progr {
+  height: 30px;
+}
+.skills-progr > div {
+  background-color: var(--menta);
+  font-size: 16px;
+}
