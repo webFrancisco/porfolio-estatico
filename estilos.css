@@ -6,6 +6,7 @@
   --texto: #646464;
   --blanco: #f5f5f5;
   --negro: #0a0a0a;
+  --oscuro: #202430;
 }
 
 body {
@@ -89,6 +90,17 @@ h5 {
 .sombraproyectos {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.inicio-contacto {
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--menta);
+}
+.inicio-contacto > a {
+  padding-left: 1rem;
+}
+.inicio-contacto > a > svg {
+  fill: var(--menta);
+}
 
 /* --- Estilos Experiencia --- */
 .exp-card {
@@ -156,4 +168,25 @@ h5 {
 }
 .proy-text {
   color: var(--blanco);
+}
+
+/* --- Estilos Footer --- */
+.secc-footer {
+  background-color: var(--oscuro);
+  padding-top: 8rem;
+  width: auto;
+  height: auto;
+  color: var(--blanco);
+}
+.social-link {
+  font-size: 20px;
+}
+.social-link:hover {
+  color: var(--naranja);
+}
+.social-link > svg {
+  fill: var(--blanco);
+}
+.secciones-link:hover {
+  color: var(--naranja);
 }
